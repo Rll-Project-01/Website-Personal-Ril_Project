@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ril Project - Template HTML Basic</title>
+  </head>
+  <body>
+    <section id="HOME">
+      <div class="container">
+        <!-- Navigation bar star -->
+        <div class="navwrapper">
+          <ul class="navigation">
+            <li class="nav">
+              <a href="#HOME" class="navlink">HOME</a>
+            </li>
+            <li class="nav">
+              <a href="#ABOUT" class="navlink">ABOUT</a>
+            </li>
+            <li class="nav">
+              <a href="#CONTACT" class="navlink">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contentwrapper">
+          <h1>Ril Project - Template HTML</h1>
+        </div>
+      </div>
+    </section>
+    <section id="ABOUT">
+      <div class="container red">
+        <div class="contentwrapper">
+          <h1>ABOUT</h1>
+        </div>
+      </div>
+    </section>
+    <section id="CONTACT">
+      <div class="container blue">
+        <div class="contentwrapper">
+          <h1>CONTACT</h1>
+        </div>
+      </div>
+    </section>
+    <div class="top" onclick="goToTop()">☝️</div>
+    <script>
+      const goToTop = () => {
+        return (location.href = "#HOME");
+      };
+    </script>
+  </body>
+</html>
